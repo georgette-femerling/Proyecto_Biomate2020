@@ -1,4 +1,7 @@
 clc, clear
+run('lib/addpath_recurse.m');
+addpath_recurse('lib/');
+addpath_recurse('src/');
 
 %% Parametros
 % Numero basico de reproduccion
