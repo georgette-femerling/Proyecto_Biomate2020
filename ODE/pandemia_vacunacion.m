@@ -66,8 +66,9 @@ hold off
 VaccineDurations =    [1 5 10 15 20 30];
 VaccineStarts =       [1 30 60 80 100];
 VaccineFractions =    [0.2 0.4 0.6 0.8 1.0];
-%VaccineFractions =    [0.4];
+
 %% Conduct simulations
+% Cambiar orden de los fors dependiendo de lo que se quiere variar en la misma figura 
 
 for j=1:length(VaccineDurations)
     figure(j)
