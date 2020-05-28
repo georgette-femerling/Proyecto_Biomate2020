@@ -29,10 +29,12 @@ ODE
 
 |__ pandemia_vacuna.m - Código principal para simular una intervención con vacuna
 
+|__ pandemia.m - Código principal para simular la cuarentena
+
 |__ lib
 
 |__ src
 
-     |__ funciones necesarias para correr pandemia_vacuna.m
+     |__ funciones
      
 
