@@ -1,4 +1,4 @@
-function simulation = multInsolation(period, di, de, y0, beta, gamma)
+function simulation = multInsolation(period, de, di, y0, beta, gamma)
     Nperiods = period/(di+de);
     simulation = [];
     for n=[1:1:Nperiods]        

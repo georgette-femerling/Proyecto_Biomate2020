@@ -39,7 +39,8 @@ plot(   t,SIRb( :, 1 ), '.-', ...
         'markersize'  , 10 ), hold on
 peak  = max(I);
 days  = [0:1:dSim];
-dpeak = days(I==peak);
+dpeak = days(I==peak)
+
 plot(   dpeak, peak, '.', 'markersize', 25 ), hold on   
 title( 'Simulacion sin intervencion' )
 xlabel('dias' ), ylabel( 'proporcion' )
@@ -304,4 +305,4 @@ fig.PaperPositionMode = 'manual';
 orient(fig,'landscape');
 print(fig,'fig1.9.pdf','-dpdf');
 
-
+close all

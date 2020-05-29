@@ -62,7 +62,7 @@ function [ mSat dSat ] = quarantine(start, period, dSim, di, de, y0, beta, gamma
 
     % Dinamica Hospitalaria
     demand = simulation(:,2).*.05;    
-    plot(simulation(:,2), '.', 'markersize', 15), hold on
+    plot(simulation(:,2), 'm.-', 'markersize', 10), hold on
     % Calculo del periodo de saturacion
     [ mSat dSat ] = saturation(demand', 0.001); hold on
     % Grafico de la simulacion completa
