@@ -14,6 +14,8 @@ Las estrucutras de las carpetas estan ordenadas de tal forma que el código prin
 
 ABM
 
+```
+
 |__ SIR_no_rest.m - Código principal para simular todo el ABM
 
 |__ lib
@@ -24,9 +26,11 @@ ABM
 
      |__ funciones
      
-     
+```
+  
 ODE
 
+```
 |__ pandemia_vacuna.m - Código principal para simular una intervención con vacuna
 
 |__ pandemia.m - Código principal para simular la cuarentena
@@ -37,4 +41,4 @@ ODE
 
      |__ funciones
      
-
+```
